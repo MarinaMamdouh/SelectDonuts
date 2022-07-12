@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Donut" translatesAutoresizingMaskIntoConstraints="NO" id="hgh-Lj-QFx">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chocolate" translatesAutoresizingMaskIntoConstraints="NO" id="hgh-Lj-QFx">
                                 <rect key="frame" x="10" y="54" width="166" height="166"/>
                                 <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 <constraints>
@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="width" constant="166" id="od3-JO-pOR"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Donut" translatesAutoresizingMaskIntoConstraints="NO" id="fKk-tJ-gh0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Strawbery" translatesAutoresizingMaskIntoConstraints="NO" id="fKk-tJ-gh0">
                                 <rect key="frame" x="10" y="230" width="166" height="166"/>
                                 <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 <constraints>
@@ -32,7 +32,7 @@
                                     <constraint firstAttribute="height" constant="166" id="bbW-Vq-JYC"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Donut" translatesAutoresizingMaskIntoConstraints="NO" id="P3R-cU-r6J">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Glazed" translatesAutoresizingMaskIntoConstraints="NO" id="P3R-cU-r6J">
                                 <rect key="frame" x="199" y="230" width="166" height="260"/>
                                 <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 <constraints>
@@ -40,7 +40,7 @@
                                     <constraint firstAttribute="width" constant="166" id="XvB-0m-fIk"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Donut" translatesAutoresizingMaskIntoConstraints="NO" id="FWn-jF-jMf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Caramel" translatesAutoresizingMaskIntoConstraints="NO" id="FWn-jF-jMf">
                                 <rect key="frame" x="199" y="54" width="166" height="166"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -48,7 +48,7 @@
                                     <constraint firstAttribute="width" constant="166" id="l1e-Nh-RJ8"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Donut" translatesAutoresizingMaskIntoConstraints="NO" id="81w-qf-zXk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mint" translatesAutoresizingMaskIntoConstraints="NO" id="81w-qf-zXk">
                                 <rect key="frame" x="10" y="406" width="166" height="275"/>
                                 <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 <constraints>
@@ -56,7 +56,7 @@
                                     <constraint firstAttribute="height" constant="275" id="W7K-Fk-6RI"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Donut" translatesAutoresizingMaskIntoConstraints="NO" id="g7t-7L-Gt3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Purple" translatesAutoresizingMaskIntoConstraints="NO" id="g7t-7L-Gt3">
                                 <rect key="frame" x="199" y="500" width="166" height="230"/>
                                 <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 <constraints>
@@ -93,7 +93,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Donut" width="512" height="512"/>
+        <image name="Caramel" width="512" height="512"/>
+        <image name="Chocolate" width="512" height="512"/>
+        <image name="Glazed" width="512" height="512"/>
+        <image name="Mint" width="512" height="512"/>
+        <image name="Purple" width="512" height="512"/>
+        <image name="Strawbery" width="512" height="512"/>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
